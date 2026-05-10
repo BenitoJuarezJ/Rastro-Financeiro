@@ -37,3 +37,14 @@ def test_high_out_degree_account():
 
     assert len(alerts) == 1
     assert alerts[0]["vertice"] == "conta_001"
+
+
+def test_high_value_transaction():
+    graph = DirectedGraph()
+    graph.add_edge("conta_001", "conta_002", relation="transacao", value=15000)
+
+    detector = FraudDetector(graph)
+    alerts = detector.detect_high_value_transactions(threshold=10000)
+
+    assert len(alerts) == 1
+    assert alerts[0]["tipo"] == "transacao_alto_valor"

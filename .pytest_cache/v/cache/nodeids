@@ -1,0 +1,13 @@
+[
+  "tests/test_bfs.py::test_bfs_base_case",
+  "tests/test_bfs.py::test_bfs_complete_graph",
+  "tests/test_bfs.py::test_bfs_empty_graph",
+  "tests/test_file_reader.py::test_read_graph_from_json_example_file",
+  "tests/test_fraud_detector.py::test_detect_shared_ip_patterns",
+  "tests/test_fraud_detector.py::test_high_out_degree_account",
+  "tests/test_fraud_detector.py::test_high_value_transaction",
+  "tests/test_fraud_detector.py::test_no_shared_ip_below_threshold",
+  "tests/test_graph.py::test_add_directed_edge",
+  "tests/test_graph.py::test_add_vertex",
+  "tests/test_graph.py::test_empty_graph"
+]
