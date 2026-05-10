@@ -158,17 +158,13 @@ RastroFinanceiro/
 ├── .gitignore
 ├── requirements.txt
 │
-├── docs/
-│   ├── E1_FraudGraph_01.md
-│   ├── E2_RastroFinanceiro.md
-│   └── E3_MVP.md
-│
 ├── data/
 │   └── grafo_exemplo.json
 │
-├── assets/
-│   ├── mvp_entrada.png
-│   └── mvp_resultado.png
+├── Doc/
+│   ├── E1_FraudGraph_01.md
+│   ├── E2_RastroFinanceiro.md
+│   └── E3_MVP.md
 │
 ├── src/
 │   ├── main.py
