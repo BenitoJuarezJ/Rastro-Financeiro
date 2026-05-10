@@ -153,46 +153,50 @@ while queue:
 # 3. Estrutura do Repositório
 
 ```text
-RastroFinanceiro/
+rastro-financeiro/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
 │
-├── docs/
+├── doc/
 │   ├── E1_FraudGraph_01.md
-│   ├── E2_RastroFinanceiro.md
+│   ├── E2_Grupo06_Designer_técnico.md
 │   └── E3_MVP.md
 │
 ├── data/
-│   └── grafo_exemplo.json
+│   ├── grafo_exemplo.json
+│   └── grafo_500_nos.json
 │
 ├── assets/
 │   ├── mvp_entrada.png
 │   └── mvp_resultado.png
 │
 ├── src/
-│   ├── main.py
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   └── terminal_view.py
+│   │
+│   ├── service/
+│   │   ├── __init__.py
+│   │   └── fraud_detector.py
 │   │
 │   ├── core/
 │   │   ├── __init__.py
-│   │   └── graph.py
+│   │   ├── graph.py
+│   │   ├── bfs.py
+│   │   └── tarjan.py
 │   │
-│   ├── algorithms/
-│   │   ├── __init__.py
-│   │   └── bfs.py
-│   │
-│   ├── io/
-│   │   ├── __init__.py
-│   │   └── file_reader.py
-│   │
-│   └── services/
+│   └── infra/
 │       ├── __init__.py
-│       └── fraud_detector.py
+│       └── file_reader.py
 │
-└── tests/
-    ├── test_graph.py
-    ├── test_bfs.py
-    └── test_fraud_detector.py
+├── tests/
+│   ├── test_graph.py
+│   ├── test_bfs.py
+│   ├── test_tarjan.py
+│   └── test_fraud_detector.py
+│
+└── main.py
 ```
 
 ---
