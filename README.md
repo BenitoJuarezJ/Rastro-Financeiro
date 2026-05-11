@@ -228,7 +228,8 @@ Entrada → Construção do grafo → Execução do algoritmo → Resultado
 
 ## Tela de Entrada
 
-![Tela de entrada](./assets/mvp_entrada.png)
+<img width="1266" height="752" alt="image" src="https://github.com/user-attachments/assets/3044d883-1f30-4941-9a95-c6a5a825134d" />
+
 
 ### Descrição
 
@@ -244,7 +245,7 @@ O sistema então carrega os dados e cria o grafo dirigido de transações.
 
 ## Tela de Resultado
 
-![Tela de resultado](./assets/mvp_resultado.png)
+<img width="882" height="760" alt="image" src="https://github.com/user-attachments/assets/3cb70310-09b1-4695-92a2-6c4cfa2d2245" />
 
 ### Descrição
 
